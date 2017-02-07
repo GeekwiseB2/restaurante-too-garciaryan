@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two:700,700i');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,900');
+
+/*=======UNIVERSALS========*/
+h2 {
+  margin-top: 10px;
+}
+
+/*=======NAVBAR=======*/
+
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  color: #fff;
+  background-color: rgba(0, 0, 0, .4)
+}
+/*=======CAROUSEL=======*/
+
+.carousel, .item {
+  height: 400px;
+}
+
+.item {
+  background-size: cover;
+  background-position: center;
+}
+
+#wood-background {
+  background-image: url('../img/wood-2.jpg');
+}
+
+#restaurante-logo-hero {
+  height: 170px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+}
+
+#restaurant-background {
+  background-image: url('../img/restaurant-2.jpg')
+}
+
+#farm-background {
+  background-image: url('../img/farm-2.jpg');
+}
+
+/*=======OUR STORY=======*/
+
+#our-story {
+  font-family: 'Lobster Two', cursive;
+  font-size: 64px;
+  font-style: italic;
+  color: #F8512F;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  margin: 40px auto 0;
+}
+
+#our-story-subtitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+#year-section-wrapper {
+  margin-top: 50px;
+}
+
+#year-text {
+  z-index: -1;
+  position: absolute;
+  font-family: serif;
+  font-size: 10em;
+  color: rgba(0, 0, 0, .12);
+  font-weight: 800;
+}
+
+.year-paragraph {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  font-size: 12px;
+  color: #333;
+}
+
+/*=======REVIEW=======*/
+
+#veggie-background {
+  background-image: url('../img/food_review.jpg');
+  background-size: cover;
+  height: 400px;
+}
+
+.well {
+  margin-top: 100px;
+  background-color: rgba(0, 0, 0, .4);
+  border: none;
+  height: 170px;
+}
+
+#review-title {
+  font-family: 'Lobster Two', cursive;
+  font-size: 44px;
+  font-style: italic;
+  color: #F8512F;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  text-align: center;
+}
+
+#review-caption {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+/*=======MENU=======*/
+
+#linen-background {
+  background-image: url('../img/black_linen.png');
+  background-size: contain;
+  height: 700px;
+}
+
+#linen-background .nav-tabs>li {
+  width: 25%;
+}

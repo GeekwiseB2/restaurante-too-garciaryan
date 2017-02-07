@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, , initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Restaurante</title>
 	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -10,6 +10,303 @@
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="#">
+	        <img alt="Brand" src="img/name-01.png">
+	      </a>
+	    </div>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">Our Story</a></li>
+				<li><a href="#">Review</a></li>
+				<li><a href="#">Menu</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+	  </div>
+	</nav>
+	<!-- Carousel begins here -->
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	  </ol>
+
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner" role="listbox">
+	    <div class="item active" id="wood-background">
+				<img src="img/logo-01.png" alt="Restaurante Logo" class="img-responsive" id="restaurante-logo-hero">
+	      <div class="carousel-caption">
+	        <h3></h3>
+	        <p></p>
+	      </div>
+	    </div>
+	    <div class="item" id="restaurant-background">
+	      <div class="carousel-caption">
+	        <h3></h3>
+	        <p></p>
+	      </div>
+	    </div>
+	    <div class="item" id="farm-background">
+	    	<h3></h3>
+	    	<p></p>
+	    </div>
+	  </div>
+
+	  <!-- Controls -->
+	  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+	<!-- Carousel ends here -->
+
+	<!-- Our Story section begins -->
+	<div class="container">
+		<div class="col-md-6">
+			<h1 id="our-story">Our Story</h1>
+			<h3 id="our-story-subtitle">One Man. One Dream.</h3>
+		</div>
+		<div class="col-md-6" id="year-section-wrapper">
+			<h1 id="year-text">1989</h1>
+			<p class="year-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam aliquam nostrum quisquam eos aperiam, velit doloribus tenetur tempora nemo quas quidem, necessitatibus deleniti. Unde consequuntur accusantium iste culpa id voluptatem.</p>
+			<p class="year-paragraph">Minus veritatis nisi maiores odit cupiditate. Vero perferendis animi repellat sunt alias doloribus perspiciatis optio aspernatur nobis minima officiis, fugiat accusantium eum, rem at quidem dolorum adipisci odio sapiente molestiae.</p>
+			<p class="year-paragraph">Autem numquam sequi modi perferendis expedita vitae laudantium et vel mollitia officiis at quaerat harum incidunt, nam quibusdam similique, sit veritatis reprehenderit dolores blanditiis. Saepe corporis dignissimos numquam laborum magni?</p>
+			<p class="year-paragraph">Officia earum voluptatibus repellendus tempora, sint totam voluptates distinctio expedita dolores vel sapiente vero, nisi dolor possimus suscipit aliquam animi laborum non excepturi rem consequuntur impedit perferendis culpa sit. Mollitia.</p>
+		</div>
+	</div>
+	<!-- Our Story section ends -->
+	<!-- Fresno Bee begins -->
+	<div class="container-fluid" id="veggie-background">
+		<div class="col-md-8 col-md-offset-2 well">
+			<h2 id="review-title">Fresno Bee</h2>
+			<p id="review-caption">'The freshest and best ingredients come together to make some of the best food I have ever eaten. You can really taste the Central Valley in every bite.'</p>
+		</div>
+	</div>
+	<!-- Fresno Bee ends -->
+	<!-- Menu Begins -->
+	<div class="container-fluid" id="linen-background">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<div>
+				  <!-- Nav tabs -->
+				  <ul class="nav nav-tabs" role="tablist">
+				    <li role="presentation" class="active"><a href="#appetizer" aria-controls="home" role="tab" data-toggle="tab">Appetizer</a></li>
+				    <li role="presentation"><a href="#lunch" aria-controls="profile" role="tab" data-toggle="tab">Lunch</a></li>
+				    <li role="presentation"><a href="#dinner" aria-controls="messages" role="tab" data-toggle="tab">Dinner</a></li>
+				    <li role="presentation"><a href="#desserts" aria-controls="settings" role="tab" data-toggle="tab">Dessert</a></li>
+				  </ul>
+
+				  <!-- Tab panes -->
+				<div class="tab-content">
+			    <div role="tabpanel" class="tab-pane active" id="appetizer">
+						<div class="row">
+							<div class="col-md-3">
+								<div class="row">
+								  <div>
+									  <a href="#" class="thumbnail">
+									    <img src="img/bruschetta.jpg" alt="Bruschetta" class="img-responsive">
+									  </a>
+								  </div>
+								  <h3>Appetizer</h3>
+								  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor necessitatibus recusandae magnam iusto repellendus illo hic atque. Quod eius accusamus nemo, molestias culpa impedit quis harum reprehenderit placeat atque? Quibusdam?</p>
+								</div>
+							</div>
+								<div class="col-md-3">
+									<div class="row">
+									  <div>
+									    <a href="#" class="thumbnail">
+									      <img src="img/dip.jpg" alt="Dip" class="img-responsive">
+									    </a>
+									  </div>
+									  <h3>Appetizer</h3>
+									  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor necessitatibus recusandae magnam iusto repellendus illo hic atque. Quod eius accusamus nemo, molestias culpa impedit quis harum reprehenderit placeat atque? Quibusdam?</p>
+									</div>
+								</div>
+							<div class="col-md-3">
+									<div class="row">
+										<div>
+										    <a href="#" class="thumbnail">
+										      <img src="img/eggplant.jpg" alt="Eggplant" class="img-responsive">
+										    </a>
+										</div>
+										  <h3>Appetizer</h3>
+										  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor necessitatibus recusandae magnam iusto repellendus illo hic atque. Quod eius accusamus nemo, molestias culpa impedit quis harum reprehenderit placeat atque? Quibusdam?</p>
+										</div>
+							</div>
+							<div class="col-md-3">
+								<div class="row">
+									<div>
+									  <a href="#" class="thumbnail">
+									    <img src="img/meat.jpg" alt="Meat" class="img-responsive">
+									  </a>
+									</div>
+									  <h3>Appetizer</h3>
+									  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor necessitatibus recusandae magnam iusto repellendus illo hic atque. Quod eius accusamus nemo, molestias culpa impedit quis harum reprehenderit placeat atque? Quibusdam?</p>
+									</div>
+							</div>
+						</div>
+					</div>
+
+				  <div role="tabpanel" class="tab-pane" id="lunch">
+						<div class="row">
+							<div class="col-md-3">
+								<div class="row">
+									<div>
+										<a href="#" class="thumbnail">
+										  <img src="img/bruschetta.jpg" alt="Bruschetta" class="img-responsive">
+										</a>
+								  </div>
+								  <h3>Appetizer</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor necessitatibus recusandae magnam iusto repellendus illo hic atque. Quod eius accusamus nemo, molestias culpa impedit quis harum reprehenderit placeat atque? Quibusdam?</p>
+								</div>
+							</div>
+								<div class="col-md-3">
+									<div class="row">
+									  <div>
+										  <a href="#" class="thumbnail">
+										    <img src="img/dip.jpg" alt="Dip" class="img-responsive">
+										  </a>
+										</div>
+										<h3>Appetizer</h3>
+									  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor necessitatibus recusandae magnam iusto repellendus illo hic atque. Quod eius accusamus nemo, molestias culpa impedit quis harum reprehenderit placeat atque? Quibusdam?</p>
+									</div>
+								</div>
+							<div class="col-md-3">
+								<div class="row">
+									<div>
+									  <a href="#" class="thumbnail">
+											<img src="img/eggplant.jpg" alt="Eggplant" class="img-responsive">
+									  </a>
+									</div>
+									  <h3>Appetizer</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor necessitatibus recusandae magnam iusto repellendus illo hic atque. Quod eius accusamus nemo, molestias culpa impedit quis harum reprehenderit placeat atque? Quibusdam?</p>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="row">
+									<div>
+									  <a href="#" class="thumbnail">
+										  <img src="img/meat.jpg" alt="Meat" class="img-responsive">
+										</a>
+									</div>
+									<h3>Appetizer</h3>
+								  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor necessitatibus recusandae magnam iusto repellendus illo hic atque. Quod eius accusamus nemo, molestias culpa impedit quis harum reprehenderit placeat atque? Quibusdam?</p>
+								</div>
+							</div>
+						</div>
+				  </div>
+				  <div role="tabpanel" class="tab-pane" id="dinner">
+						<div class="row">
+							<div class="col-md-3">
+								<div class="row">
+									<div>
+										<a href="#" class="thumbnail">
+										  <img src="img/bruschetta.jpg" alt="Bruschetta" class="img-responsive">
+										</a>
+									</div>
+									<h3>Appetizer</h3>
+								  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor necessitatibus recusandae magnam iusto repellendus illo hic atque. Quod eius accusamus nemo, molestias culpa impedit quis harum reprehenderit placeat atque? Quibusdam?</p>
+								</div>
+							</div>
+								<div class="col-md-3">
+									<div class="row">
+									  <div>
+										  <a href="#" class="thumbnail">
+											  <img src="img/dip.jpg" alt="Dip" class="img-responsive">
+										  </a>
+										</div>
+										<h3>Appetizer</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor necessitatibus recusandae magnam iusto repellendus illo hic atque. Quod eius accusamus nemo, molestias culpa impedit quis harum reprehenderit placeat atque? Quibusdam?</p>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="row">
+										<div>
+											<a href="#" class="thumbnail">
+											  <img src="img/eggplant.jpg" alt="Eggplant" class="img-responsive">
+											</a>
+										</div>
+											<h3>Appetizer</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor necessitatibus recusandae magnam iusto repellendus illo hic atque. Quod eius accusamus nemo, molestias culpa impedit quis harum reprehenderit placeat atque? Quibusdam?</p>
+									</div>
+								</div>
+									<div class="col-md-3">
+										<div class="row">
+										  <div>
+										    <a href="#" class="thumbnail">
+										      <img src="img/meat.jpg" alt="Meat" class="img-responsive">
+										    </a>
+										  </div>
+										  <h3>Appetizer</h3>
+										  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor necessitatibus recusandae magnam iusto repellendus illo hic atque. Quod eius accusamus nemo, molestias culpa impedit quis harum reprehenderit placeat atque? Quibusdam?</p>
+										</div>
+									</div>
+							</div>
+				    </div>
+				    <div role="tabpanel" class="tab-pane" id="dessert">
+							<div class="row">
+								<div class="col-md-3">
+									<div class="row">
+									  <div>
+										  <a href="#" class="thumbnail">
+										    <img src="img/bruschetta.jpg" alt="Bruschetta" class="img-responsive">
+										  </a>
+									  </div>
+									  <h3>Appetizer</h3>
+									  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor necessitatibus recusandae magnam iusto repellendus illo hic atque. Quod eius accusamus nemo, molestias culpa impedit quis harum reprehenderit placeat atque? Quibusdam?</p>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="row">
+									  <div>
+										  <a href="#" class="thumbnail">
+										    <img src="img/dip.jpg" alt="Dip" class="img-responsive">
+										  </a>
+										</div>
+										<h3>Appetizer</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor necessitatibus recusandae magnam iusto repellendus illo hic atque. Quod eius accusamus nemo, molestias culpa impedit quis harum reprehenderit placeat atque? Quibusdam?</p>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="row">
+										<div>
+										  <a href="#" class="thumbnail">
+											  <img src="img/eggplant.jpg" alt="Eggplant" class="img-responsive">
+											</a>
+										</div>
+											<h3>Appetizer</h3>
+										  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor necessitatibus recusandae magnam iusto repellendus illo hic atque. Quod eius accusamus nemo, molestias culpa impedit quis harum reprehenderit placeat atque? Quibusdam?</p>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="row">
+										  <div>
+										    <a href="#" class="thumbnail">
+										      <img src="img/meat.jpg" alt="Meat" class="img-responsive">
+										    </a>
+										  </div>
+										  <h3>Appetizer</h3>
+										  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor necessitatibus recusandae magnam iusto repellendus illo hic atque. Quod eius accusamus nemo, molestias culpa impedit quis harum reprehenderit placeat atque? Quibusdam?</p>
+										</div>
+									</div>
+								</div>
+					    </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	<!-- Menu Ends -->
 
 	<!-- javascript	 -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
