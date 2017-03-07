@@ -137,3 +137,38 @@ h2 {
 #linen-background .nav-tabs>li {
   width: 25%;
 }
+
+.tab-content {
+  background-color: #fff;
+}
+
+
+#menu-header {
+  color: #fff;
+  font-family: 'Lobster Two', cursive;
+  font-size: 60px;
+  font-style: italic;
+}
+
+#linen-background .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .nav-tabs>li>a {
+  color: #F8512F;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+#linen-background .thumbnail {
+  border: none;
+  padding: 0;
+}
+#linen-background img.img-responsive, p.text-justify {
+  padding: 4px 15px;
+  font-size: 12px;
+}
+
+
+/*=======CONTACT US=======*/
+
+textarea {
+  padding-bottom: 20px;
+}
